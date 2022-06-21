@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
+import Button from "react-bootstrap/esm/Button";
 import "./tabsnew.css";
 const TabsNew = () => {
   const [key, setKey] = useState("engagments");
@@ -33,7 +34,10 @@ const TabsNew = () => {
         className="mb-3"
       >
         <Tab eventKey="engagments" title="Enagagments">
-          <div className="content">Enagagments </div>
+          <div className="content">
+            Enagagments
+            <Button variant="primary">Button #1</Button>
+          </div>
         </Tab>
         <Tab eventKey="trainings" title="Trainings">
           <div className="content">Trainings</div>
