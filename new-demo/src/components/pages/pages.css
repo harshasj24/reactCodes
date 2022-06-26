@@ -1,0 +1,24 @@
+.body {
+  overflow-x: hidden;
+}
+
+.hero-section {
+  height: 100vh;
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/29/07/22/bible-1868070_1280.jpg");
+  background-size: cover;
+  position: relative;
+}
+.hero-card {
+  padding: 15px;
+  /* padding-top: 0; */
+  width: 200px;
+  height: 120px;
+  background-color: rgba(255, 253, 253, 0.6) !important;
+  box-shadow: none !important;
+  position: absolute;
+  top: 40vh;
+  left: 20vw;
+}
+.hero-card > h1 {
+  margin: 0;
+}

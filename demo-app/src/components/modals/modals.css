@@ -1,0 +1,41 @@
+input[type="file"] {
+  /* position: relative; */
+
+  width: 400px;
+  /* display: none; */
+  z-index: 0;
+  /* padding-left: 15px; */
+  padding: 0;
+  margin: 0;
+  /* border: solid !important; */
+  /* outline: none !important; */
+  color: white;
+}
+/* input[type="file"]::before {
+  content: "";
+  height: 100%;
+  width: 200px;
+  border: solid;
+  position: absolute;
+  
+} */
+
+.inps {
+  /* position: relative; */
+}
+.selactable {
+  /* position: absolute; */
+  /* margin-left: -20px; */
+  left: -17vw;
+  z-index: 3;
+  /* width: calc(100vw + 17vw) !important; */
+}
+::-webkit-file-upload-button {
+  background: rgb(45, 165, 201);
+  color: white;
+  height: 100%;
+  border: none;
+  border-radius: 4px;
+
+  /* padding: 1em; */
+}
